@@ -7,11 +7,11 @@
 
 <!--Introduce la empresa <input type="text" (input)="cambiaEmpresa($event)">;-->
 
-Introduce la empresa <input type="text" [(ngModel)]="empresa">
+Introduce la empresa <input type="text"  [(ngModel)]="empresa" >
 
 <br/>
 <br/>
 {{textoRegistro}}<br/>
 Registrado: <input type="radio" value="si" name="nRegistro" id="registro" [checked]="usuRegistrado" (click)="setUsuarioRegistrado($event)"/><br/>
 No registro: <input type="radio" value="no" name="nRegistro" (click)="setUsuarioRegistrado($event)"/>
-{{getRegistroUsuario()}}
+{{getRegistroUsuario()}}    

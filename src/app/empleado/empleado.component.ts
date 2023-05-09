@@ -10,9 +10,9 @@ export class EmpleadoComponent {
   apellido="Díaz";
   edad=18;
   empresa="Video 11";
-  /*cambiaEmpresa(event:Event){
+  /* cambiaEmpresa(event:Event){
     this.empresa=(<HTMLInputElement>event.target).value;
-  }*/
+  } */
   /*getEdad(){
     return this.edad;
   }*/
