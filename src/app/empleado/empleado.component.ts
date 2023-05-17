@@ -9,7 +9,7 @@ export class EmpleadoComponent {
   nombre="Juan";
   apellido="Díaz";
   edad=18;
-  empresa="Video 11";
+  empresa="Video 16";
   /* cambiaEmpresa(event:Event){
     this.empresa=(<HTMLInputElement>event.target).value;
   } */
